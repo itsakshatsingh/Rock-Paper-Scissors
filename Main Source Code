@@ -1,0 +1,29 @@
+import java.util.Scanner;
+import java.util.Random;
+public class HAND_CRICKET {
+    public static void main(String[] args) {
+        System.out.println("welcome to Hand cricket game");
+        System.out.println("INSTRUCTIONS \n Choose numbers bw 1 to 6 \n you will be batting first in this game and the computer will bowl first" +
+                "everytime \n There will be no toss system in this game ");
+        Scanner sc=new Scanner(System.in);
+        Random rc=new Random();
+//        System.out.println("Its toss time !!\n press 1 for head and 0 for tails");
+//        if (u==t){
+//            System.out.println("User won");
+//        }
+//        else {
+//        System.out.println("Computer won");
+//        }
+        System.out.println("User is batting");
+        int u=sc.nextInt();// User ka input hoga ye waala ;
+        int r= rc.nextInt(7-1)+1;// computer ka input hoga ye waala ,
+        String go=sc.next(); //go likhne ke liye
+        System.out.println("Press go to start");
+        if (go.endsWith(go)){
+         //   for (int i =u; i<=450;);
+        }
+
+      //  int r= rc.nextInt(2);
+     //   System.out.println(r);
+    }
+}
